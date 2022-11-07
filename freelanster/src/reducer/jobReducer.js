@@ -28,7 +28,7 @@ const JobReducer = (state, action) => {
         case "SET_SINGLE_LOADING":
             return {
                 ...state,
-                isSingleLoading: false,
+                isSingleLoading: true,
             };
 
         case "SET_SINGLE_JOB":
